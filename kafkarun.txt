@@ -1,0 +1,25 @@
+g++ produce.cpp -lrdkafka++ -lrdkafka
+
+RD_KAFKA_PARTITION_UA
+rkt
+librdkafka-dev
+librdkafka++1
+librdkafka1
+librdmacm1
+
+
+/home/manoj/Desktop/ManojCpp/kafka
+
+/home/manoj/Desktop/ManojCpp/kafka/librdkafka/src-cpp
+
+
+
+kafka-topics --zookeeper localhost:2181 --list
+
+kafka-topics --describe --zookeeper localhost:2181 --topic test
+
+kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 2 --partitions 5 --topic logdata
+
+
+
+Read the FAQ first: https://github.com/edenhill/librdkafka/wiki/FAQ
