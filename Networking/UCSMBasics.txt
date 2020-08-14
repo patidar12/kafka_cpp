@@ -1,0 +1,67 @@
+variadic class temlate
+ellipsis operator
+
+////////////////////////////////////////////////
+
+-> C Series - “Pizza box” servers which look like your traditional rack mounted server.
+-> B Series - Blade servers which slide into the slots of a UCS chassis.
+-> There are two types of B Series servers - half width and full width.
+
+-> from one febric interconnect , how many servers we can manage.-> upto 20 chassis, each chassis have 8 blades.(160 servers)
+-> VICs are used to present virtual adapters (vNICs & vHBAs) to the Operating System(s) installed on the UCS servers.
+-> In regards to B-Series servers, VICs also provide the connectivity between the server and the UCS Chassis’s FEXs/IOMs.
+-> IOMs are inserted into a UCS Chassis and are used to provide the physical connectivity between B-Series servers and the Fabric Interconnects (FIs).
+-> The IOMs  are required because B-Series servers do not have any external ports. Instead, their VIC card(s) connect internally to the IOMs,
+ which in turn connect to the FIs. The FIs then provide connectivity to the outside world. By “outside world” I mean systems which reside outside of the UCS platform.
+
+-> The FIs are at the top of the “tree”. They provide connectivity to the outside world.
+-> The IOMs provide the physical connectivity between the FIs and the VICs.
+-> vNICs and vHBAs are created ontop of the VICs.
+-> The (virtual) vNICs and vHBAs are presented to the Operating System as physical interfaces.
+
+-> A virtual network interface card (vNIC) or virtual host bus adapter (vHBA) logically connects a virtual machine to a virtual interface 
+on the UCS 6100/6200 series fabric interconnect and allows the virtual machine to send and receive traffic through that interface.
+
+-> Service Profiles are the fundamental mechanism by which the Cisco Unified Computing System models the necessary abstractions of server, storage, and networking.
+
+///////////////////////////////blade server vs rack servers//////////////////////////////////////
+
+-> Rackmount servers are self-sufficient meaning the cooling, power supplies, hard disks, processors, memory, raid controller are all enclosed within that single server.
+-> Rack servers are economical and great choice if your server requirement is small. You can simply plug the rack mounted server into a standard electrical outlet 
+   and connect the network cables and the device is operational. 
+
+-> effective computer network option for small to medium-sized operations. 
+
+->  Blade servers only have CPUs, memory, network controllers, storage drives. 
+
+-> ucs support local switching , so if one blad wants to send data to another blade, than packets go through febric interconnect reciver blade locally.
+
+
+
+-> what are the component of ucs manager.
+-> what are the diff commponent in cs servr.
+diff kind of ucs servers.
+what are the hardwares are availables.
+what are the available type 1 hypervisort and type 2
+what is virtulization
+what is SAN.
+
+
+-> fabric interconnect have 40 ports or 20 ports. 
+-> one febric interconnect can connect up to 20 chassis and one chassis have 8 blade servers.so total of 160 blade servers we can handels.
+-> if servers requirements is more than can we required more febric intrconnect. if true than who manage this fabric intrconnects?
+-> can we put more than 8 blade servers in a chassis. if yes, than why we cant put.
+-> If the fabric extender is connected to fabric interconnect using 4 links and one of the links fail, what will happen?
+
+
+
+
+
+
+
+
+
+
+
+
+

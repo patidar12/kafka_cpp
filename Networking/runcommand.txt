@@ -1,0 +1,4 @@
+commands for execution of cpp program on linux :
+g++ -g -o client client.cpp
+or
+gcc client.cpp -o client

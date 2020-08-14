@@ -1,0 +1,39 @@
+what is :
+VSAN, Fiber channel adapter policies, fiber channel quality of services(Qos), SAN security.
+DME - Data Management engine.
+model-driven framework?
+Febric extenders(FEX)
+Network interface port
+Finite State Machanism
+Application gateway
+Cisco NX-OS
+chasis,blades,ports,host,agent, NICs
+Service Profiles : 
+virtual network interface cards
+MAC Address
+boot policies
+firmware revision
+What is FSM?
+What is information Model in Cisco UCS.
+BMC ( baseboard management controller )
+SAM (Server Array Manager)
+NXOS
+
+SFP,  menlo adapters (made by third party), palo adapters (made by cisco)
+Term for UCS :
+Unified crossbar Fabric, Unified Port Controller, Pedwood ASIC, 
+Palo ASIC Data Plan, Menlo ASIC, vnTag.
+
+Going through 'UCS Architecture' and 'FI Switch Bring UP' webex recording.
+Exploring vLAN, Uplink Ethernet Connection Configuration.
+
+
+
+
+
+
+/////////////////////////questions////////////////////////////////
+-> How virtualization works in cisco ucs?
+-> what is use of LAN in UCS?
+-> what if blade 1 wanths to send data packets to blade 2?
+

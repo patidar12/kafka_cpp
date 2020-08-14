@@ -1,0 +1,19 @@
+Computer Architecture
+====================
+1. What is multi processor systems?
+2. What is the difference between multicore and multiprocessor?
+3. What is the difference between Desktop and Server at hardware level?
+4. What is PCI slot? ( Peripheral Component Interconnect (PCI) )
+5. What is IPMI? 
+6. What all are the IO cards available? What is its use?
+
+
+Storage:
+=======
+1. What is storage?
+2. Different types?
+3. Disk storage and its type?
+4. What is LUN? What is the use?
+5. What is IOPS?
+6. How read write happen in disk?
+7. Different  types of storage and memory?

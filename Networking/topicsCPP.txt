@@ -1,0 +1,11 @@
+input/output
+operators
+araay/string
+functions
+pointers
+oops
+dynamic memory allocation
+STL
+namespace
+structure
+union

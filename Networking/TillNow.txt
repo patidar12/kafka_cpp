@@ -1,0 +1,144 @@
+UCSM (Unified Computing System (UCS) Manager) : Computing, network and storage
+
+Cisco Unified Computing System (UCS) Manager provides unified, embedded management of all software and hardware components in the Cisco UCS.
+ Using SingleConnect Technology it controls multiple chassis and manages resources for thousands of virtual machines.
+
+chassis : binding thousands of Cisco UCS components together.
+
+mainframe computers
+tower and rack servers
+blade servers
+
+The Cisco Unified Computing System (UCS) is a data center server computer product line composed of computing hardware, 
+virtualization support, switching fabric, and management software introduced in 2009 by Cisco Systems.
+The products are marketed for scalability by integrating many components of a data center that can be managed as a single unit.
+
+
+
+The Cisco fabric interconnects (FI) provide network connectivity for the chassis, blade servers and rack servers 
+connected to it through different speeds of Ethernet and Fiber Channel over Ethernet (FCoE).
+
+Management of the system devices is handled by the UCS Manager software integrated with fabric interconnects.
+
+IOM -> i/o module ,FEX -> febric extender.
+
+UUIds : Universally Unique Identifiers (UUIDs)
+NIC -> network interface cards
+MAC -> Media Access Controll
+WWN -> Word wide Node
+  
+
+
+1))))
+ Completed basic of socket programming and computer architecture.
+
+ Computer Architecture
+  ====================
+1. What is multi processor systems?
+2. What is the difference between multicore and multiprocessor?
+3. What is the difference between Desktop and Server at hardware level?
+4. What is PCI slot?
+5. What is IPMI? 
+6. What all are the IO cards available? What is its use?
+
+
+2)))
+ Networking : 
+1) Storage and its types    
+2) LUN    
+3) IOPS    
+4) hard disk drives (HDD)     
+5) solid state drives (SDD)    
+6) Update C++ code using class and method.    
+7) Writed some more basic code using C++ to understand the pointer.
+
+
+3)))
+1) Done with gdb.( online compiler and debugger for C/C++ )
+
+2) Exploring physical architecture of UCS. 
+  -> Fabric Interconnects. 
+  -> Blade servers.
+  -> Rack-mount servers. 
+  -> IOM modules.
+3) Exploring multithreding using Cpp.
+
+4)))
+
+Done with basic of Multithreading :
+
+1) Creating threads.
+2) join and detach the threads.
+3) Mutex : Mutual Exclusion in thread, Race Condition.  
+ -> try_lock  -> Timed Mutex  
+ -> Recursive Mutex  
+ -> Lock Guard
+4) Deadlock.
+5) Process Synchronization.
+
+
+
+Basic of operating system :
+what is operating system.
+types of operating system.
+multitasking,multithreading, multiprocessing
+CPU scheduling
+process synchronization
+
+
+/////////////////////////////////////////////////////////////////////
+Socket Programming : 
+-> explore and understand the basic function of socket programming 
+     also run a code for client & server communication :
+1) Server :
+??socket -> open socket with internet address
+ 
+bind -> bind the socket with ip address and port
+listen -> for listening the request
+accept -> create a new socket descriptor to handle the new connection from client
+send -> send message to client
+recv -> received message from client
+close -> close the socket descriptor
+
+2) client :
+socket -> open socket with internet address
+connect -> connect to the server on the socket
+send -> send message to server
+recv -> received message from server
+close -> close the socket descriptor
+
+sockaddr_in -> struct type used to set IP address, port and IP address family.
+
+
+///////////////////////////////////////////////////////////////////////
+
+Task Completed :
+Oops :
+1) Classes 
+2) Objects
+3) Constructor
+4) Destructor
+5) Access Modifiers : public, protected, private
+6) Inheritance : Modes(public, protected, private), Type (single, multiple,multilevel, hierarchical, hybrid)
+7) Polymorphism : compile time, run time
+8) Encapsulation 
+9) Abstraction
+10) Structure
+
+///////////////////////////////////////////////////////////////////
+
+Task Completed :
+Understand the concept of C++ :
+1) input/output
+2) operators
+3) array/string
+4) functions
+
+//////////////////////
+freopen
+
+
+
+
+
+

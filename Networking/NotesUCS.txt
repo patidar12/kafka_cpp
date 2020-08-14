@@ -1,0 +1,13 @@
+Backplane Ports: 
+Each I/O Module has four fixed 10GbE ‘Backplane Ports’ which are directly connected to the I/O Adapters of each Blade Server.
+With two I/O Modules each half-with Blade Server has effectively a maximum of 8x10GbE backplane connectivity (depending on the 
+type of I/O Adapter that is used in the Blade Server).
+
+Fabric Ports:
+Each I/O Module has eight 10GbE (SFP) ‘Fabric Ports’ available that can be connected with 1x, 2x, 4x or 8x10GbE (SFP) to an FI. 
+With two I/O Modules each Blade Chassis has effectively a 2x, 4x, 8x or 16x10GbE connection to the FI’s.
+
+Each Fis have 40 ports;
+
+
+
