@@ -1,0 +1,65 @@
+ambari
+
+Data Analytytcs : discriptivs - dashboard,scorecard : they tell you what happend in the past but not why it is happend or what might changed.
+predictive analytycs : used past data to model future outcome
+
+
+Vertical scaling : Hardware Failure, Processing times
+
+Horigantal Scaling : linear 
+
+
+
+
+
+
+
+
+
+
+
+
+
+HDFS :
+
+namenode
+datanode
+secondary name node
+replication factor
+Block
+fisimage
+edit log
+High Availiblity in hadoop
+
+fs vs dfs :
+fs refers to any file system, it could be local or HDFS but dfs refers to only HDFS file system.
+fsck :
+fsck command is used to check the HDFS file system.
+
+
+
+hdfs fsck /  : to check the health of the hadoop file system
+hdfs dfs -ls /  : list of files and directories in hdfs
+hdfs dfs -mkdir /dir_name  : to create directory in hdfs
+hdfs dfs -touchz /dir_name/filename  : to create file in hdfs with file size 0
+hdfs dfs -du -s /dir_name/filename  : to check file size
+hdfs dfs -cat /path_to_file_in_hdfs : reads file on HDFS and print the content of that file on standard output
+hdfs dfs -text /dir_name/filename : takes a source file and outputs the file in the text format
+hdfs dfs -copyFromLocal <localsrc> <hdfs destination> : copy the file from local file system to hdfs
+hdfs dfs -copyToLocal <hdfs source> <localdst>
+hdfs dfs -put <localsrc> <hdfssrc>  // for put file from local system to hdfs
+hdfs dfs -appendToFile <localsrc> <hdfssrc> // for append data to existing file in hadoop
+hdfs fsck file_path -files -locations -blocks   //for getting file blocks information
+hdfs dfs -find /some_dir -name file_name   : for finding location of a file
+
+
+
+
+//////////////////////////////////
+
+servicenow Integration
+python coding (algorithms implemantaion, linked list implimentation)
+coding guidlines
+hadoop echoSystem
+MR & TEZ
+Kafka monitoring

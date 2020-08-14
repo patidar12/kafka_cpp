@@ -1,0 +1,23 @@
+zookeeper-server-start.sh kafka_2.12-2.0.0/config/zookeeper.properties : start the zookepeer
+zookeeper-shell.sh 10.160.0.5:2181 ls /brokers/ids : for checking zookeeper
+kafka-server-start.sh kafka_2.12-2.0.0/config/server.properties : start broker
+kafka-topic.sh --create --zookeeper 10.160.0.5:2181 --replication-factor 3 --partitions 3 --topic topic_name : create topic
+kafka-topics.sh --list --zookeeper 10.160.0.5:2181 : list the topics
+kafka-consol-producer.sh --broker-list 10.160.0.4:9092 --topic topic_name : start producer
+                                        (broker ip:port)
+kafka-consol-consumer.sh --bootstrap-server 10.160.0.2:9092 --topic test --from-beginning : start consumer
+                                   (broker cordinate)                      (offset - from where we start reading message)
+
+
+bootstrap.servers : list of kafka brokers
+
+Kafka API :
+core API are available in java
+package : org.apache.kafka.clients.producers.*;
+
+Note : kafka dont have any meaning for data, it is just a array of bytes for kafka
+Serialization : converting java object into array of bytes
+
+
+
+

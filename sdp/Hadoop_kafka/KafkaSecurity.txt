@@ -1,0 +1,50 @@
+SASL_PLAINTEXT :
+- Supports user authentication via :
+  - Username / password
+  - GSSAPI (Kerberos Ticket)
+  - SCRAM (Salted Password)
+
+- Supports User authorization via Kafka ACLs or Apache Ranger
+- Sends secrets & data over the wire in "Plain" format
+
+- How to Configure
+  - Pre-configure authentication mechanism
+
+    Broker-Side:
+     listeners=SASL_PLAINTEXT://127.0.0.1:6667
+     inter.broker.protocol=SASL_PLAINTEXT
+     sasl.enabled.mechanism=PLAIN | GSSAPI | SCRAM
+    Client-Side :
+      security.protocol=SASL_PLAINTEXT
+      sasl.mechanism=PLAIN | GSSAPI | SCRAM-SHA-256 | SCRAM-SHA-512
+ 
+
+SASL_SSL :
+- Supports user authentication via :
+  - Username / password
+  - GSSAPI (Kerberos Ticket)
+  - SCRAM (Salted Password)
+
+- Supports User authorization via Kafka ACLs or Apache Ranger
+- Sends secrets & data over the wire in "Encrypted" format
+
+- How to Configure
+  - Pre-configure authentication mechanism
+  - Setup per-node certificate truststore/keystore for broker(s) & client(s)
+    Broker-Side:
+     listeners=SASL_SSL://127.0.0.1:6667
+     inter.broker.protocol=SASL_SSL
+     sasl.enabled.mechanism=PLAIN | GSSAPI | SCRAM
+    Client-Side :
+      security.protocol=SASL_SSL
+      sasl.mechanism=PLAIN | GSSAPI | SCRAM-SHA-256 | SCRAM-SHA-512
+
+
+
+
+
+
+////////////////
+JAAS configuration
+
+ 
